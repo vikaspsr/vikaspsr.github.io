@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikas Kumar | Java Backend Developer</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
+    <link rel="stylesheet" href="./styles/github-calendar.css">
+</head>
+
+<body>
+
+    <!-- navbar started -->
+    <div id="navbar">
+        <div style="margin-left: -18%;" id="name">
+            <img id="name-img" src="images/name.png" alt="vikas">
+        </div>
+        <div id="list" style="margin-right: -14%;">
+            <a class="list-item hover-underline-animation" href="#home-section">Home</a>
+            <a class="list-item hover-underline-animation" href="#about-section">About Me</a>
+            <a class="list-item hover-underline-animation" href="#skills-section">Skills</a>
+            <a class="list-item hover-underline-animation" href="#project">Projects</a>
+            <a class="list-item hover-underline-animation" href="#contact">Contact</a>
+        </div>
+    </div>
+    <div id="navham">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+
+        <ul class="nav" id="nav">
+            <li> <a onclick="removemenu()" class="anchor" href="#home-section">Home</a></li>
+            <li> <a onclick="removemenu()" class="anchor" href="#about-section">About Me</a></li>
+            <li> <a onclick="removemenu()" class="anchor" href="#skills-section">Skills</a></li>
+            <li> <a onclick="removemenu()" class="anchor" href="#project">Projects</a></li>
+            <li> <a onclick="removemenu()" class="anchor" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- navbar ended -->
+
+    <div id="main">
+        <!--  #828282 -->
+
+        <!-- home-section started-->
+        <div style="margin-top: 5%;" id="home-section">
+            <div id="home-section-mini" style="width: 80%;">
+                <div id="home-left">
+                    <p> Hi, I am <span style="color: #5a96d1;
+                  text-shadow: 1px 1px 1px var(--clr-tertiary); ">Vikas Kumar</span></p>
+                    <span
+                        style="color: #828282; margin-bottom: 200vh; font-weight: 550; font-size: 2.8vw;margin-top: -50vh;">
+                        <span class='console-container'>
+                            <span id='text' style="text-shadow: 1px 1px 1px var(--clr-tertiary); "></span>
+                            <!-- <div class='console-underscore' id='console' style="color:#00ffff">&#95; </div> -->
+                        </span></span>
+                </div>
+                <div id="home-right">
+                    <img style="height: 70%;border-radius: 90%;" src="./images/mydp.jfif"
+                        alt="Vikas">
+                </div>
+            </div>
+
+
+
+        </div>
+        <!-- home-section ended -->
+        <!-- about me started -->
+
+        <div id="about-section">
+            <div style="margin-left: 8%;" id="about-section-mini">
+                <div id="about-left">
+                    <div>About Me</div>
+                    <div>
+                        <p>I'm a highly resourceful and passionate Java Backend Developer. I love designing, building
+                            and maintaining Java-based applications and I am looking for more opportunity to work in
+                            coding.<br>Passionate about developing well-designed, efficient, and testable code, I enjoy
+                            working with
+                            and adapting to technologies as they develop.<br>I like fitness and solving mathematics problem</p>
+                        <div id="resume-button">
+                            <button><a style="text-decoration: none;background: none;color:white; cursor:pointer;"
+                                    href="./download/Vikas_Kumar_Resume.pdf" download target="_blank"> Resume </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="about-right">
+                    <img src="./images/aimated1.jpg" style="width: 60%;border-radius: 50%; margin-top:15%" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="skills-section" style="margin-top: -10%;">
+            <h3><span style="color: #5a96d1;">My</span>Skills</h3>
+            <div id="gap1">
+                <div id="front1">
+                    <div class="frontend">
+                        <div>
+                            <img src="images/java.png">
+                            <h5>Java</h5>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/mysql.png">
+                            <h5>MySql</h5>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/spring-boot.png">
+                            <h5>SpringBoot</h5>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/github.png">
+                            <h5>GitHub</h5>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/hibernate-white.svg">
+                            <h5>Hibernate</h5>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/postman-3521648.png">
+                            <h5>Postman</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="gap">
+                <!-- <h1><span style="color: #5a96d1">Front-end </span> Technologies</h1> -->
+                <div id="front">
+                    <div class="frontend">
+                        <div>
+                            <img src="images/html-5.png">
+                            <h5>HTML 5</h5>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/css.png">
+                            <h5>CSS 3</h5>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/java-script.png">
+                            <h5>JavaScript</h5>
+                        </div>
+                    </div>
+                    <div class="frontend">
+                        <div>
+                            <img src="images/netlify.png">
+                            <h5>Netlify</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ---------about me end  -->
+
+        <!-- github calender and graph -->
+        <div>
+
+            <div style="width: 90%;background-color: black;" class="calendar">
+                <!-- Loading stuff -->
+                Loading the data just for you.
+            </div>
+        </div>
+
+
+        <!-- github calender and graph -->
+
+
+        <!------------project start-  -->
+        <div id="project">
+            <h3 style="text-align: center; padding-top: 5%; font-size: 3vw; color: white;"><span
+                    style="color: #5a96d1;">My</span>Projects</h3>
+            <div id="created">
+
+                <div class="work">
+                    <img src="images/google_digital_garage.png">
+                    <div class="layer">
+                        <p style="font-size: 30px; line-height: normal;" id="h3">E-learning Clone Website</p>
+                        <p id="p" style="font-size: 19px;">It is an E-learning clone website which provide online digital couses </p>
+                        <a href="https://verdant-biscotti-1680f9.netlify.app/" target="_blank">Live</a>
+                        <a href="https://github.com/rahulajay34/-rampant-reading-402" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/shephora_project.png">
+                    <div class="layer">
+                        <p style="font-size: 30px; line-height: normal;" id="h3">A leader in luxury beauty and skincare ecommerce website clone</p>
+                        <p id="p" style="font-size: 19px;"><html,CSS,java-script></p>
+                        <a href="https://drive.google.com/file/d/1B0YVHb2gxvkIyxoRfXAS-roeIsZHOqGw/view?usp=sharing"
+                            target="_blank">Live</a>
+                        <a href="https://github.com/Uchiha-D-Kurosaki/plastic-scent-4061"
+                            target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/criminal_management_System.jpg">
+                    <div class="layer">
+                        <p style="font-size: 30px; line-height: normal;" id="h3">Crime_mangement_App</p>
+                        <p id="p" style="font-size: 19px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                        <a href="https://verdant-biscotti-1680f9.netlify.app/" target="_blank">Live</a>
+                        <a href="https://github.com/vikaspsr/crazy-name-9363" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mgregaImge.jpg">
+                    <div class="layer">
+                        <p style="font-size: 30px; line-height: normal;" id="h3">E-commerce Clone Website</p>
+                        <p id="p" style="font-size: 19px;">It is an E-Commerce clone website which deals in women's
+                            jewellery</p>
+                        <a href="https://verdant-biscotti-1680f9.netlify.app/" target="_blank">Live</a>
+                        <a href="" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- --------------------------Contact Me----------------------------- -->
+
+        <div id="contact">
+            <div id="contactme">
+                <div id="firstcontact">
+                    <h1>Contact <span style="color:#5a96d1;">Me</span></h1>
+                    <div id="git"><img src="images/github.png">
+                        <p><a href="https://github.com/vikaspsr">GitHub</a></p>
+                    </div>
+                    <div id="tele"><img src="images/phone-icon.png">
+                        <p>+917061090998</p>
+                    </div>
+                    <div id="all">
+                        <img src="images/linkedin.png" alt="">
+                        <p><a
+                                href="https://www.linkedin.com/in/vikaspsr/">LinkedIn</a>
+                        </p>
+                    </div>
+                    <button><a style="text-decoration: none;background: none;color:white; cursor:pointer;"
+                            href="./download/Vikas_Kumar_Resume.pdf" download target="_blank"> Resume </a>
+                    </button>
+                </div>
+                <div id="secondcontact">
+                    <form action="https://formsubmit.co/vikaspsr@gmail.com" method="post" target="_blank"
+                        rel="noopener noreferrer">
+
+                        <input type="hidden" name="_template" value="table">
+
+                        <input type="hidden" name="_autoresponse"
+                            value="Thank you for reaching me.I will contact you soon...">
+
+                        <input type="hidden" name="_subject" value="New submission!">
+
+                        <input type="hidden" name="_next" value="">
+
+                        <input style="background-color: aliceblue;" type="text" name="name" placeholder=" Name"
+                            required="">
+
+                        <input style="background-color: aliceblue;" type="email" name="email" placeholder=" Email"
+                            required="">
+
+                        <input style="background-color: aliceblue;" id="msg" name="Message" rows="6"
+                            placeholder=" Message"></input>
+
+
+                        <button type="submit" id="contact-button">SEND</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+</body>
+
+</html>
+<script src="./scripts/index.js"></script>
+
+
+<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+</script>
+<script>
+    new GitHubCalendar(".calendar", "vikaspsr", { responsive: true, tooltips: true });
+</script>
+
+<script src="calendar_graph.js"></script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+
+<!-- ctrl z here here here here------------- -->
